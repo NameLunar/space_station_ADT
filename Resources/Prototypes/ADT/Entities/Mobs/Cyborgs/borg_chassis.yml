@@ -8,6 +8,15 @@
     selectedBorgType: security
   - type: TTS
     voice: sentrybot
+  # ADT START Buff borg Security NT
+  - type: Damageable
+    damageModifierSet: ADTBorgNTSecuritySet # О да! Броня боргам! Ехую!
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      300: Critical # Крит и бейздействие
+      500: Dead # Полное Уничтожение
+  # ADT END Buff borg Security NT
 
 - type: entity
   id: ADTBorgChassisKerfusNT

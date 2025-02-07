@@ -262,3 +262,19 @@
     Cold: 0
     Poison: 0
 #
+
+# NanoTrasen-Security Borg
+- type: damageModifierSet
+  id: ADTBorgNTSecuritySet
+  coefficients:
+    Shock: 0.5
+    Slash: 0.5
+    Piercing: 0.5
+    Heat: 0.5
+    Cellular: 0
+    Bloodloss: 0
+    Asphyxiation: 0
+    Radiation: 0
+    Cold: 0
+    Poison: 0
+#

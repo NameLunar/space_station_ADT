@@ -104,7 +104,8 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        500: Dead
+        500: Critical # Падение в крит и дальнейший бум. В будущем бум уберём
+        1500: Dead # Полное уничтожение борга. Там ещё взрыв будет, по тому так много
     - type: Damageable
       damageModifierSet: ADTBorgChassisSyndicateAssaultSet
     - type: ExplodeOnTrigger
@@ -118,7 +119,7 @@
       canCreateVacuum: true
     - type: TriggerOnMobstateChange
       mobState:
-      - Dead
+      - Critical
     #ADT End Borg Syndicate buff
     - type: BorgChassis
       maxModules: 3

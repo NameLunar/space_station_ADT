@@ -13,6 +13,8 @@
   defaultModules:
   - BorgModuleTool
   - ADTBorgModuleDetention
+  - ADTBorgModuleHarm # Модуль вреда (Лазер + Дубинка)
+  - ADTBorgModuleDisabler # Модуль задержания (Дизаблер + ЕЩЁ ОДНИ СТЯЖКИ)
 
   radioChannels:
   - Science
@@ -28,3 +30,7 @@
   # Pet
   petSuccessString: petting-success-generic-cyborg
   petFailureString: petting-failure-generic-cyborg
+
+
+# КТО ПРИДУМАЛ ТАК УМЛ ЗАПИСЫВАТЬ!??!
+# ВЫ ПИЛИ ТАМ ИЛИ КАК
