@@ -229,7 +229,7 @@
     - id: Flare
     - id: FoodBreadNutriBatard
     - id: DrinkWaterBottleFull
-    - id: SpaceMedipen # ADT-Tweak
+    - id: SpaceMedipen # ADT rework - add SpaceMedipen in all survival box
 
 - type: entity
   parent: BoxSurvivalNitrogen
@@ -244,7 +244,7 @@
     - id: Flare
     - id: FoodBreadNutriBatard
     - id: DrinkWaterBottleFull
-    - id: SpaceMedipen # ADT-Tweak
+    - id: SpaceMedipen # ADT rework - add SpaceMedipen in all survival box
   - type: Sprite
     layers:
     - state: internals
@@ -265,6 +265,7 @@
     - id: Flare
     - id: FoodBreadCottonNutriBatard
     - id: DrinkWaterBottleFull
+    - id: SpaceMedipen # ADT rework - add SpaceMedipen in all survival box
 
 - type: entity
   parent: BoxCardboard
